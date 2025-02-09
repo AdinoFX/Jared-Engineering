@@ -1,0 +1,7 @@
+// Toggle Navbar on Mobile
+const navbarToggler = document.querySelector(".navbar-toggler");
+const navbarNav = document.querySelector(".navbar-nav");
+
+navbarToggler.addEventListener("click", () => {
+  navbarNav.classList.toggle("active");
+});
